@@ -1,0 +1,308 @@
+body {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, “微軟正黑體”, sans-serif;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.74);
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.ex1 {
+  padding: 0.2em;
+  width: 70px;
+  border: solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+.ex2 {
+  padding: 0.2em;
+  width: 70px;
+  border: solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 500px;
+}
+
+.a1 {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  animation-name: a1;
+  animation-duration: 4s;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+}
+
+.a1:hover{
+  animation-play-state: paused;
+}
+
+@keyframes a1 {
+  from {
+    left: 0px;
+    background-color: rgb(235, 114, 135);
+  }
+  to {
+    left: 200px;
+    background-color: rgb(108, 108, 190);
+  }
+}
+
+.a2 {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  animation-name: a1;
+  animation-duration: 4s;
+  animation-delay: 5s;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+}
+
+.a3 {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  animation-name: a1;
+  animation-duration: 4s;
+  animation-fill-mode: none;
+  animation-iteration-count: 2;
+}
+.a4 {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  animation-name: a1;
+  animation-duration: 4s;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+.a5 {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  animation-name: a1;
+  animation-duration: 4s;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.a8 {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  animation-name: a1;
+  animation-duration: 4s;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate; */
+}
+
+.a6 {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  animation-name: a1;
+  animation-duration: 4s;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate; */
+  animation-timing-function: linear;
+}
+
+.a7 {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  animation-name: a1;
+  animation-duration: 4s;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate; */
+  animation-timing-function: ease-in-out;
+}
+
+.a9 {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  animation-name: a1;
+  animation-duration: 4s;
+  animation-fill-mode: none;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+}
+
+.a10 {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  animation-name: a1;
+  animation-duration: 4s;
+  animation-fill-mode: none;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(5, start);
+}
+
+.a11 {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  animation-name: a1;
+  animation-duration: 4s;
+  animation-fill-mode: none;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(5, end);
+}
+
+.a12 {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  animation-name: a1;
+  animation-duration: 4s;
+  animation-delay: 3s;
+  animation-fill-mode: none;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+.a13 {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  animation-name: a1;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+  animation-timing-function: linear;
+}
+
+.a14 {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  animation-name: a1;
+  animation-duration: 4s;
+  animation-delay: 5s;
+  animation-fill-mode: backwards;
+  animation-timing-function: linear;
+}
+
+.a15 {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: relative;
+  animation-name: a1;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  animation-delay: 5s;
+  animation-timing-function: linear;
+}
+
+.b1 {
+    margin-top: 10px;
+  margin-left: 500px;
+  width: 50px;
+  height: 50px;
+  background: rgb(235, 114, 135);
+  transition-property: width;
+  transition-duration: 2s;
+}
+
+.b1:hover {
+  width: 100px;
+}
+
+.b2 {
+    margin-top: 10px;
+    margin-left: 500px;
+    width: 50px;
+    height: 50px;
+    background: rgb(235, 114, 135);
+    transition: transform 2s;
+  }
+  
+  .b2:hover {
+    transform: translate(40px, 40px)
+  }
+
+  .b3 {
+    margin-top: 30px;
+    margin-left: 500px;
+    width: 50px;
+    height: 50px;
+    background: rgb(235, 114, 135);
+    transition: transform 2s;
+  }
+  
+  .b3:hover {
+    transform: rotate(70deg)
+  }
+
+  .b4 {
+    margin-top: 30px;
+    margin-left: 500px;
+    width: 50px;
+    height: 50px;
+    background: rgb(235, 114, 135);
+    transition: transform 2s;
+  }
+  
+  .b4:hover {
+    transform: scale(1.5)
+  }
+
+  .b5 {
+    margin-top: 30px;
+    margin-left: 500px;
+    width: 50px;
+    height: 50px;
+    background: rgb(235, 114, 135);
+    transition: transform 2s;
+  }
+  
+  .b5:hover {
+    transform: skew(70deg)
+  }
